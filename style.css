@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(73, 20px);
+    grid-template-rows: repeat(50, 20px);
+    gap: 1px;
+}
+.grid-item {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
